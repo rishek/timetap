@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dimens.dart';
 
+TextStyle get bigStyle {
+  return GoogleFonts.poppins(
+      textStyle: const TextStyle(fontSize: AppDimens.big, color: Colors.black));
+}
+
+
 TextStyle get largeStyle {
   return GoogleFonts.poppins(
       textStyle: const TextStyle(fontSize: AppDimens.large, color: Colors.black));
