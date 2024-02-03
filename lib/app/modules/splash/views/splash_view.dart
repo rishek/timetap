@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:timetap/app/constants/colors.dart';
 import 'package:timetap/app/constants/styles.dart';
 import '../controllers/splash_controller.dart';
+import 'package:timetap/app/constants/strings.dart';
 
 class SplashView extends GetView<SplashController> {
   SplashView({Key? key}) : super(key: key);
@@ -21,9 +22,8 @@ class SplashView extends GetView<SplashController> {
             opacity: controller.opacity.value,
             duration: Duration(seconds: 1), // Adjust the duration as needed
             child: Text(
-              "TimeTap",
-              style: bigStyle.copyWith(
-                  fontWeight: FontWeight.bold, color: AppColors.white),
+              AppStrings.appName,
+              style: bigStyle.copyWith(fontWeight: FontWeight.bold),
             ),
           ),
         ),

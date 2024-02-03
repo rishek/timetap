@@ -4,8 +4,9 @@ mixin AppColors {
   static const primary = Color(0xFF00BD70);
   static const onPrimary = Colors.white;
   static const primaryContainer = null;
+
   static const onPrimaryContainer = null;
-  static const secondary = Color(0xFFFDD159);
+  static const secondary = Color(0xFFF3CC2C);
   static const lightYellow = Color(0xFFFBEB59);
   static const onSecondary = Colors.white;
   static const secondaryContainer = null;
